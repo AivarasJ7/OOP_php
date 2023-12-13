@@ -52,7 +52,7 @@ foreach($books as $book){
 $plant1 = new Plant();
 $plant2 = new Plant();
 $plant3 = new Plant("Rose", "Rosa", true, "Europe", 0.1, false);
-$plant4 = new Plant("Rose", "Ananas comosus", false, "South America", 1.5, true);
+$plant4 = new Plant("Pineapple", "Ananas comosus", false, "South America", 1.5, true);
 
 $plants= [$plant1, $plant2, $plant3, $plant4];
 

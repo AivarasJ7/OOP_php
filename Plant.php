@@ -1,4 +1,7 @@
 <?php
+// 2.Sukurti klasę Plant
+// Visi laukai turi būti private, turėti getterius ir setterius. 
+// konstruktorius su optional parameters 
 
 class Plant
 {
@@ -49,9 +52,5 @@ class Plant
         return $this->isEdible;
     }
 }
-
 ?>
 
-<!-- 2.Sukurti klasę Plant
-Visi laukai turi būti private, turėti getterius ir setterius. 
-konstruktorius su optional parameters -->
