@@ -29,12 +29,14 @@ $book6 = new Book ("Facebook", 100, 2009);
 
 $books = [$book1, $book2, $book3, $book4, $book5, $book6];
 
-//echo "Title: " . $book->getTitle() . ", Pages: " . $book->getPages() . ", Release Year: " . $book->getReleaseYear() . "\n";
-// Iprastas way
+
 
 foreach($books as $book){
     echo  "<br><br> Title:  {$book->getTitle()}, Pages: {$book->getPages()}, Release Year: {$book->getReleaseYear()}\n ";
      // String interpolation
+
+     //echo "Title: " . $book->getTitle() . ", Pages: " . $book->getPages() . ", Release Year: " . $book->getReleaseYear() . "\n";
+    // Iprastas way
 }
 
 // Klasės laukai:
